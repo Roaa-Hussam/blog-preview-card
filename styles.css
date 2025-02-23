@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: "Figtree", serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  width: 38.4rem;
+  height: auto;
+  border: 0.2rem solid black;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem #111111;
+  background-color: #f4d04e;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.card > img {
+  margin: 2.4rem;
+  border-radius: 2rem;
+}
+
+.card-content {
+  margin: 2.4rem;
+  margin-top: 0;
+}
+.card-content span {
+  font-size: 1.4rem;
+  font-weight: 950;
+  text-align: center;
+  background-color: #f4d04e;
+  width: 8.2rem;
+  height: 2.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.date {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #111111;
+}
+
+h1 {
+  margin-bottom: 1.2rem;
+  font-weight: 950;
+}
+h1:hover {
+  color: #f4d04e;
+}
+
+.text {
+  color: #6b6b6b;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  margin: 2.4rem;
+}
+
+.card-footer img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card-footer span {
+  font-size: 1.4rem;
+  font-weight: 950;
+  padding-left: 1.2rem;
+}
